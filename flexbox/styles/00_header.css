@@ -1,0 +1,28 @@
+.hero {
+  background: url("../img/hero.jpg") center center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.hero--content {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 45%;
+  left: 50%;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  padding: 5px;
+}
+
+.hero--content__title {
+  font-size: 3.5em;
+  padding-bottom: 15px;
+  line-height: 1.2;
+}
+
+.hero--content__sub-title {
+  font-size: 1.5em;
+  padding-bottom: 10px;
+}
