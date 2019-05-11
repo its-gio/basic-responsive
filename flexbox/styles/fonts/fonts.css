@@ -1,7 +1,9 @@
 @font-face {
-  font-family: Oswald;
+  font-family: "Oswald";
   src: url("./Oswald-Regular.ttf");
+}
 
-  font-family: Raleway;
+@font-face {
+  font-family: "Raleway";
   src: url("./Raleway-Regular.ttf");
 }
