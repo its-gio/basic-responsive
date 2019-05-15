@@ -40,6 +40,12 @@ ul {
   list-style-type: none;
 }
 
+hr {
+  max-width: 150px;
+  margin: 40px auto;
+  border: #2196f3 solid 2px;
+}
+
 footer {
   background-color: #131622;
   background: linear-gradient(to bottom, #284e7a, #000 100%);

@@ -2,8 +2,24 @@
   max-width: 900px;
   width: 100%;
   margin: 0 auto;
+  padding: 20px 10px;
 }
 
 .about-me__header {
   text-align: center;
+}
+
+.about-me__container {
+  display: flex;
+  align-items: center;
+}
+
+.about-me__image-container {
+  padding: 10px;
+}
+
+.about-me__content {
+  padding: 10px;
+  line-height: 1.75;
+  text-align: justify;
 }
