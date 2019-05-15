@@ -1,4 +1,4 @@
-nav {
+.nav {
   background-color: rgba(0, 0, 0, 0.7);
   z-index: 1;
   position: fixed;
@@ -9,18 +9,18 @@ nav {
   padding: 5px 15px;
 }
 
-.logo-svg {
+.nav__logo-svg {
   flex: 1;
 }
 
-nav .buttons {
+.nav__buttons {
   display: flex;
   flex: 2;
   justify-content: space-around;
   padding: 5px;
 }
 
-nav .buttons--button a {
+.nav__buttons--button a {
   color: var(--nav-footer-color);
   padding: 5px;
   text-decoration: none;
@@ -28,10 +28,11 @@ nav .buttons--button a {
   transition: border-bottom-color 500ms ease-out;
 }
 
-nav .buttons--button:hover a {
+.nav__buttons--button:hover a {
   border-bottom-color: var(--nav-footer-color);
 }
 
+/* Hero section */
 .hero {
   background: url("../img/hero.jpg") center top;
   background-size: cover;
@@ -57,6 +58,5 @@ nav .buttons--button:hover a {
 }
 
 .hero--content__sub-title {
-  font-size: 1.5em;
   padding-bottom: 10px;
 }
