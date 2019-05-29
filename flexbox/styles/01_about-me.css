@@ -1,12 +1,12 @@
 .about-me {
+  background: #eee;
+}
+
+.about-me__inner {
   max-width: 900px;
   width: 100%;
   margin: 0 auto;
   padding: 20px 10px;
-}
-
-.about-me__header {
-  text-align: center;
 }
 
 .about-me__container {
