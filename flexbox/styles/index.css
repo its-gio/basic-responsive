@@ -1,6 +1,7 @@
 @import "./fonts/fonts.css";
-@import "./00_header.css";
-@import "./01_about-me.css";
+@import "./sections/00_header.css";
+@import "./sections/01_about-me.css";
+@import "./sections/02_gallery.css";
 
 :root {
   --nav-footer-color: rgba(255, 255, 255, 0.6);
@@ -79,8 +80,13 @@ footer ul li a {
   cursor: pointer;
 }
 
+.section-container {
+  padding: 20px 10px;
+}
+
 .section-header {
   text-align: center;
+  padding-bottom: 20px;
 }
 
 @media (max-width: 800px) {
