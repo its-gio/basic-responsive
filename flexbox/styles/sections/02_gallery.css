@@ -5,3 +5,24 @@
   text-align: center;
   line-height: 2;
 }
+
+.gallery__image-row {
+  display: flex;
+  max-height: 350px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.gallery__image-row--image:first-child {
+  max-width: 40%;
+}
+
+.gallery__image-row--image {
+  padding: 5px;
+  max-width: 60%;
+}
+
+.gallery__image-row--image img {
+  width: 100%;
+  height: 100%;
+}
