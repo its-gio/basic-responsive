@@ -1,0 +1,25 @@
+.WoT__grid-container {
+  display: flex;
+  max-width: 980px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.WoT__item {
+  width: 33.333%;
+  padding: 10px;
+}
+
+.WoT__item--icon {
+  max-width: 45px;
+  margin: 0 auto;
+  padding-bottom: 15px;
+}
+
+.WoT__item--icon img {
+  width: 100%;
+}
+
+.WoT__item--title {
+  padding-bottom: 15px;
+}
