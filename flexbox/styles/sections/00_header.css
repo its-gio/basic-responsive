@@ -60,3 +60,8 @@
 .hero--content__sub-title {
   padding-bottom: 10px;
 }
+
+.hero--content__title,
+.hero--content__sub-title {
+  text-shadow: 2px 2px #000;
+}
