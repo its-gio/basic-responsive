@@ -1,0 +1,56 @@
+.quotes__CC {
+  text-align: center;
+}
+
+.quotes__quote {
+  max-width: 800px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.quotes__quote--img-container {
+  padding-bottom: 10px;
+}
+
+.quotes__quote--img-container img {
+  border: 5px solid #2196f3;
+  border-radius: 100px;
+}
+
+.quotes__quote--marks {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.quotes__quote--marks::before {
+  content: "“";
+  top: -25px;
+  left: 0;
+}
+
+.quotes__quote--marks::after {
+  content: "”";
+  bottom: 50px;
+  right: 0;
+}
+
+.quotes__quote--marks::before,
+.quotes__quote--marks::after {
+  position: absolute;
+  font-size: 5em;
+  color: #eee;
+  max-height: 10px;
+  z-index: -1;
+}
+
+.quotes__quote--content {
+  font-size: 1.4rem;
+}
+
+.quotes__quote--name {
+  font-size: 0.9rem;
+}
+
+.quotes__quote--name::before {
+  content: "— ";
+}
