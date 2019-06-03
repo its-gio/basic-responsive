@@ -89,6 +89,14 @@ footer ul li a {
   padding-bottom: 20px;
 }
 
+.section-content {
+  max-width: 750px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 2;
+}
+
 @media (max-width: 800px) {
   footer {
     padding: 80px 15px;

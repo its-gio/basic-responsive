@@ -1,11 +1,3 @@
-.gallery__content {
-  max-width: 750px;
-  width: 100%;
-  margin: 0 auto;
-  text-align: center;
-  line-height: 2;
-}
-
 .gallery__image-row {
   display: flex;
   max-height: 350px;
