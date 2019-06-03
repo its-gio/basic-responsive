@@ -3,7 +3,7 @@ let nav = document.querySelector(".nav");
 let navBtns = nav.querySelectorAll(".nav__buttons--button");
 let navHeight = nav.offsetHeight;
 
-function secionScroll(e) {
+function sectionScroll(e) {
   e.preventDefault();
   let section = e.target.dataset.section;
   let scrollValue = document.querySelector(`#${section}`).offsetTop - navHeight;
@@ -16,7 +16,7 @@ function secionScroll(e) {
   return false;
 }
 
-navBtns.forEach(btn => btn.addEventListener("click", secionScroll));
+navBtns.forEach(btn => btn.addEventListener("click", sectionScroll));
 
 // Footer date
 const date = document.querySelector("#date");
