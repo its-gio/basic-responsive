@@ -90,6 +90,10 @@ footer ul li a {
   padding: 20px 10px;
 }
 
+.section-container:nth-child(odd) {
+  background: #eee;
+}
+
 .section-header {
   text-align: center;
   padding-bottom: 20px;
