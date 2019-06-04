@@ -4,6 +4,7 @@
 @import "./sections/02_gallery.css";
 @import "./sections/03_WoT.css";
 @import "./sections/04_quotes.css";
+@import "./sections/05_contact.css";
 
 :root {
   --nav-footer-color: rgba(255, 255, 255, 0.6);
