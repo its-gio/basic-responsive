@@ -109,6 +109,34 @@ footer ul li a {
   line-height: 2;
 }
 
+@media (max-width: 560px) {
+  .about-me__container {
+    flex-direction: column;
+  }
+
+  .gallery__image-row {
+    flex-direction: column;
+    max-height: none;
+  }
+
+  .gallery__image-row--image {
+    max-width: 100%;
+  }
+
+  .gallery__image-row--image:first-child {
+    max-width: 100%;
+  }
+
+  .WoT__grid-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .WoT__item {
+    width: 80%;
+  }
+}
+
 @media (max-width: 800px) {
   footer {
     padding: 80px 15px;
